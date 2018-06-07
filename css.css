@@ -1,0 +1,125 @@
+header{
+    width:100%;
+    height: 80px;
+    margin: 0;
+    background: #000;
+}
+header div{
+    width: 960px;
+    margin: 0 auto;
+    color: white;
+    font-size: 2em;
+    line-height: 80px;
+    position: relative;
+}
+header ul{
+    position: absolute;
+    right: 0;
+    top: -40px;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 5px;
+    float: right;
+    list-style: none;
+}
+a{
+    font-size: 0.7em;
+    color: white;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    margin:0;
+}
+.banner div{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner #div1{
+    z-index: 1;
+    background: lightgray;
+}
+.banner #div2{
+    background: aquamarine;
+}
+.banner #div3{
+    background: blanchedalmond;
+}
+.style1{
+    margin: 0;
+    width: 100%;
+}
+.nav{
+    width: 960px;
+    margin: 0 auto;
+    border-bottom: lightgray solid 2px;
+    overflow: hidden;
+}
+.nav li a:focus,.nav li a:hover {
+    background-color: lightgray;
+}
+
+.nav li a:active {
+    background-color: white;
+}
+.nav ul{
+    padding: 0;
+    margin: 0;
+}
+.nav ul li{
+    font-size: 2em;
+    float: left;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 5px;
+}
+.nav ul li a{
+    display:inline-block;
+    color: black;
+    margin:auto 0;
+    text-decoration: none;
+}
+.content{
+    width: 960px;
+    margin: 0 auto;
+}
+.column1,.column2,.column3{
+    display: flex;
+}
+.column1 div{
+    width: 310px;
+    height: 250px;
+    border: lightgray solid;
+    margin: 5px 5px;
+    line-height: 250px;
+    text-align: center;
+}
+.column2 div{
+    width: 230px;
+    height: 250px;
+    border: lightgray solid;
+    margin: 5px 5px;
+    line-height: 250px;
+    text-align: center;
+}
+.column3 div{
+    width: 310px;
+    height: 250px;
+    border: lightgray solid;
+    margin: 5px 5px;
+    line-height: 250px;
+    text-align: center;
+}
+footer{
+    width: 960px;
+    margin: 5px auto;
+    background: gray;
+    text-align: center;
+    height: 110px;
+    line-height: 2em;
+}
